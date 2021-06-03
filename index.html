@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calc">
+
+        <div class="tela">
+            <div class="conta">
+                0
+            </div>
+            <div class="atual">
+                
+            </div>
+        </div>
+
+        <div class="teclado">
+            <button onclick="operator(' / ')" class="teclas">/</button>
+            <button onclick="clean()" class="teclas">CE</button>
+            <button onclick="clean()" class="teclas">C</button>
+            <button onclick="backspace()" class="teclas"><</button>
+        </div>
+        <div class="teclado">
+            <button onclick="number('7')" class="teclas">7</button>
+            <button onclick="number('8')" class="teclas">8</button>
+            <button onclick="number('9')" class="teclas">9</button>
+            <button onclick="operator(' * ')"class="teclas">x</button>
+        </div>
+        <div class="teclado">
+            <button onclick="number('4')" class="teclas">4</button>
+            <button onclick="number('5')" class="teclas">5</button>
+            <button onclick="number('6')" class="teclas">6</button>
+            <button onclick="operator(' + ')" class="teclas">+</button>
+        </div>
+        <div class="teclado">
+            <button onclick="number('1')" class="teclas">1</button>
+            <button onclick="number('2')" class="teclas">2</button>
+            <button onclick="number('3')" class="teclas">3</button>
+            <button onclick="operator(' - ')" class="teclas">-</button>
+        </div>
+        <div class="teclado">
+            <button onclick="number('0')" class="teclas tecla0">0</button>
+            <button onclick="number('.')" class="teclas">.</button>
+            <button onclick="calcular()" class="teclas teclaigual">=</button>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
