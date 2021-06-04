@@ -12,14 +12,13 @@ function operator(n) {
     atual.innerHTML = resultado + n;
 }
 
-function clean() {
+function cleanAll() {
     atual.innerHTML = "";
     conta.innerHTML = "";
 }
 
-function clean2() {
-    atual.innerHTML = eval(2+2/2);
-    console.log("Limpar tela")
+function clean() {
+    
 }
 
 function backspace() {
