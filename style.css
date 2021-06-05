@@ -32,6 +32,11 @@
     font-size: 15px;
     margin-right: 2px;
     color: rgb(192, 192, 192);
+    max-width: 200px;
+    overflow: hidden;
+    max-width: 250px;
+    text-overflow: clip;
+    white-space:nowrap;
 }
 
 .atual{
@@ -39,6 +44,10 @@
     justify-content: flex-end;
     margin-right: 2px;
     font: 18px sans-serif;
+    overflow: hidden;
+    max-width: 250px;
+    text-overflow: clip;
+    white-space:nowrap;
 }
 
 .teclas {

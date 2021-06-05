@@ -17,10 +17,6 @@ function cleanAll() {
     conta.innerHTML = "";
 }
 
-function clean() {
-    
-}
-
 function backspace() {
     let resultado = atual.innerHTML;
     atual.innerHTML = resultado.substring(0, resultado.length -1);
